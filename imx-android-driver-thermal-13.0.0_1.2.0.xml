@@ -1,0 +1,3 @@
+
+<remote name="bmp280" fetch="https://github.com/vmn1009/bmp280_i2c_driver/tree/develop/kernel_source" review="" />
+<project path="vendor/nxp-opensource/driver/bmp280_driver" name="bmp280_driver" remote="bmp280"/>
