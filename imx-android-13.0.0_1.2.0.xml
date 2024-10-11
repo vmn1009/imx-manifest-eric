@@ -11,7 +11,8 @@
 <remote name="github" fetch="https://github.com/" review="" />
 
 <remote name="bmp280_driver" fetch="https://github.com/vmn1009/bmp280_i2c_driver.git" review="" />
-<project path="vendor/nxp-opensource/kernel_imx/drivers/bmp280_driver" name="bmp280" remote="bmp280_driver"/>
+<project path="vendor/nxp-opensource/kernel_imx/drivers/bmp280_driver" name="bmp280_i2c_driver" remote="bmp280_driver" revision="develop"/>
+
 
 <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="7f7a9f7bc6011b072b5427eced1ff19261764e95" />
 
