@@ -1,3 +1,4 @@
-
-<remote name="bmp280_driver" fetch="https://github.com/vmn1009/bmp280_i2c_driver.git" review="" />
-<project path="vendor/nxp-opensource/driver/bmp280_driver" name="bmp280" remote="bmp280_driver" revision="develop"/>
+<manifest>
+    <remote name="mlx90614_driver" fetch="https://github.com/vmn1009/thermal_driver" review="" />
+    <project path="vendor/nxp-opensource/kernel_imx/drivers/mlx90614_driver" name="thermal_driver" remote="mlx90614_driver" revision="main"/>
+</manifest>

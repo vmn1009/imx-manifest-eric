@@ -2,8 +2,7 @@
 <manifest>
 
 <include name="aosp-android-13.0.0_1.2.0.xml"/>
-<remote name="bmp280_driver" fetch="https://github.com/vmn1009/" review="" />
-<project path="vendor/nxp-opensource/driver/bmp280_driver" name="bmp280_i2c_driver" remote="bmp280_driver" revision="develop"/>
+<include name="imx-android-driver-thermal-13.0.0_1.2.0.xml"/>
 
 <remote name="imx-android" fetch="https://github.com/nxp-imx-android" review="" />
 <remote name="imx-linux-sdk" fetch="https://github.com/nxp-imx" review="" />
