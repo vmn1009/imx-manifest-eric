@@ -14,6 +14,8 @@
 
 <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="refs/tags/android-13.0.0_1.2.0" />
 
+<remote name="bmp280_driver" fetch="https://github.com/vmn1009/bmp280_i2c_driver/tree/develop/kernel_source" review="" />
+<project path="vendor/nxp-opensource/driver/bmp280_driver" name="bmp280" remote="bmp280_driver"/>
 <!-- For imx public git. -->
 <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="imx-linux-sdk" revision="refs/tags/android-13.0.0_1.2.0" />
 <project path="vendor/nxp-opensource/arm-trusted-firmware" name="imx-atf" remote="imx-linux-sdk" revision="refs/tags/android-13.0.0_1.2.0" />
