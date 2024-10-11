@@ -2,15 +2,15 @@
 <manifest>
 
 <include name="aosp-android-13.0.0_1.2.0.xml"/>
-<include name="imx-android-driver-thermal-13.0.0_1.2.0.xml"/>
 
 <remote name="imx-android" fetch="https://github.com/nxp-imx-android" review="" />
 <remote name="imx-linux-sdk" fetch="https://github.com/nxp-imx" review="" />
 <remote name="imx-proprietary" fetch="https://github.com/nxp/" review="" />
 <remote name="wireless-regdb" fetch="https://git.kernel.org/pub/scm/linux/kernel/git/sforshee/" review="" />
 <remote name="github" fetch="https://github.com/" review="" />
+<remote name="mlx90614_driver" fetch="https://github.com/vmn1009" review="" />
 
-
+<project path="vendor/nxp-opensource/kernel_imx/drivers/mlx90614_driver" name="thermal_driver" remote="mlx90614_driver" revision="main"/>
 
 <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="7f7a9f7bc6011b072b5427eced1ff19261764e95" />
 
